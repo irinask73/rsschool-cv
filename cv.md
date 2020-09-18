@@ -18,7 +18,9 @@ I am a purposeful person who can work both in a team and independently. My stren
 * Initial JS;
 * Photoshop, Figma.
 ## Code examples
-```//implementation of an accordion menu with JS
+
+//implementation of an accordion menu with JS
+```
 const accordionItems = document.querySelector("[data-accordion='accordion__items']");
 const accordionButtons = accordionItems.querySelectorAll('li > div');
 
