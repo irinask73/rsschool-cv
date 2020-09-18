@@ -15,7 +15,8 @@ html {
   li{
       margin: 0;
       padding: 0;
-      list-style: none;
+      list-style: square;
+      list-style-position: inside;
   }
 body {
     font-family: 'Roboto Slab', serif;
@@ -64,6 +65,9 @@ body {
 .name {
     font-size: 35px;
     font-weight: 700;
+}
+.contact__info li{
+    list-style: none;
 }
 /*aside left*/
 .aside__left {
