@@ -36,7 +36,7 @@ accordionButtons[i].nextElementSibling.classList.toggle('active');
 }
 ```
 ## Experience
-As part of the training course responsive market place and travel site using HTML, CSS, JS, Jquery.
+As part of the training course responsive market place [here](https://github.com/irinask73/moderno.git) and travel site [here](https://github.com/irinask73/messinia.gitt) using HTML, CSS, JS, Jquery.
 ## Education
 I have higher education in engineering and economics. A year ago I decided to change the type of activity. I’m self-studying in the IT-sphere.
 * FreeCodeCamp. Responsive Web Design/ Javascript Algorithms and Data Structures;
@@ -44,4 +44,4 @@ I have higher education in engineering and economics. A year ago I decided to ch
 * Now I am studying learn.javscript.ru
 ## Languages
 * Deutch: A2;
-* Englisch: basic knowledge allowing to understand technical documentation. Now I am studying at intensive courses at the Churchill club.
+* Englisch: basic knowledge allowing to understand technical documentation. Now I am studying at intensive courses at the Churchill club [here](http://english-webinar.ru/).
