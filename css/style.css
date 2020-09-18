@@ -1,0 +1,81 @@
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  a{
+      display: inline-block;
+      text-decoration: none;
+  }
+  ul,
+  li{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 15px 30px 15px;
+    background-color: rgb(241, 226, 204);
+}
+.wrapper {
+    display: flex;
+}
+.title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cv__image {
+    width: 30%;
+    padding: 20px 0 20px 20px;
+}
+.cv__info {
+    margin: auto;
+}
+.cv__image img {
+    width: 150px;
+    border-radius: 25%;
+}
+.surname {
+    font-size: 50px;
+    font-weight: 700;
+}
+.name {
+    font-size: 35px;
+    font-weight: 700;
+}
+/*aside left*/
+.aside__left {
+    width: 30%;
+    padding: 0 40px 0 20px;
+}
+/*aside right*/
+.aside__right {
+    padding: 0 20px 0 40px;
+    width: 70%;
+}
+.examples {
+    margin: 0;
+    border-bottom: 1px solid;
+}

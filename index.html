@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV HTML, CSS & Git Basics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="cv__image">
+                <img src="/images/cv-image.jpg" alt="foto by Irina Skidan">
+            </div>
+            <div class="cv__info">
+                <h2 class="name">Irina</h2>
+                <h1 class="surname">Skidan</h1>
+            </div>
+        </header>
+        <div class="wrapper">
+            <aside class="aside__left">
+                <section class="section">
+                    <h3 class="title"># contact</h3>
+                    <ul class="contact__info">
+                        <li class="contact__link">
+                            Email:
+                            <a href="mailto:irinaskid@gmail.com">irinaskid@gmail.com</a>
+                        </li>
+                        <li class="contact__link">
+                            Telegram:
+                            <a href="tg://resolve?domain=<@IrinaSkidan>">@IrinaSkidan</a></a>
+                        </li>
+                        <li class="contact__link">
+                            Phone:
+                            <a href="tel:380934956258">+38093 495 62 58</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h3 class="title"># Summary</h3>
+                    <p>
+                        My goal is to become a <span class="bold--text">front-end developer with React</span>.
+                    </p>
+                    <p>
+                        I am a purposeful person who can work both in a team and independently. My strengths are the
+                        ability to learn and apply new knowledge in practice. I have experience in website layout.
+                    </p>
+                </section>
+                <section class="section">
+                    <h3 class="title"># Skills</h3>
+                    <ul>
+                        <li>* HTML;</li>
+                        <li>* CSS;</li>
+                        <li>* Sass (SCSS);</li>
+                        <li>* BEM;</li>
+                        <li>* Git;</li>
+                        <li>* Gulp;</li>
+                        <li>* Wordpress;</li>
+                        <li>* Initial JS;</li>
+                        <li>* Photoshop, Figma.</li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h3 class="title"># Experience</h3>
+                    <p>As part of the training course responsive market place <a
+                            href="https://github.com/irinask73/moderno.git">here</a> and travel site <a
+                            href="https://github.com/irinask73/messinia.gitt">here</a> using HTML, CSS, JS, Jquery.
+                    </p>
+                </section>
+            </aside>
+            <aside class="aside__right">
+                    <h3 class="title"># Code examples</h3>
+                    <p>
+                        //implementation of an accordion menu with JS
+                    </p>
+                    <pre class="examples">
+                        <code>
+const accordionItems = document.querySelector("[data-accordion='accordion__items']");
+const accordionButtons = accordionItems.querySelectorAll('li > div');
+
+for (let i = 0; i < accordionButtons.length; i++) {
+accordionButtons[i].addEventListener('click', function () {
+const isTabActive = accordionButtons[i].nextElementSibling.classList.contains('active');
+for (let j = 0; j < accordionButtons.length; j++) {
+if (isTabActive === false) {
+accordionButtons[j].classList.remove('active')
+}
+}
+accordionButtons[i].nextElementSibling.classList.toggle('active');
+// if the same element has a class 'active' then on click remove the class 'active'
+});
+}
+                     </code>
+                </pre>               
+                <section class="section">
+                    <h3 class="title"># Education</h3>
+                    <p>
+                        I have higher education in engineering and economics. A year ago I decided to change the type of
+                        activity. I’m self-studying in the IT-sphere.
+                    </p>
+                    <ul>
+                        <li>* FreeCodeCamp. Responsive Web Design/ Javascript Algorithms and Data Structures;</li>
+                        <li>* Markup Developer by Vadim Prokopchuk;</li>
+                        <li>* Now I am studying learn.javscript.ru</li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h3 class="title"># Languages</h3>
+                    <ul>
+                        <li>* Deutch: A2;</li>
+                        <li>* Englisch: basic knowledge allowing to understand technical documentation. Now I am
+                            studying at intensive courses at the Churchill club <a
+                                href="http://english-webinar.ru/">here</a></li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>
